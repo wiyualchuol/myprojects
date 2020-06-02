@@ -1,36 +1,38 @@
-body{
-    background-image: url(Rbk.jpg);
-    background-repeat: repeat-y;
-    background-position: center center;
-    width: 300px;
-    height: 650px;
+nav{
+    background-color: rgba(27, 236, 8, 0.671);
+    margin: 10px;
+    padding: 10px;
+    box-shadow:10px 10px 10px 0px  rgb(107, 96, 96);
+    text-align:none;
+    color:black;
 }
-div{
-    background-color: rgba(0, 191, 255, 0.658);
-    position: fixed;
-    transform:translate(-50%,-50%);
-    left:85%;
-    top: 50%;
-    text-align: center;
-    width:25%;
-    height:60%;
-    border:15px inset rgba(1, 192, 1, 0.842);
-    border-radius:initial;
-    
+b:hover{
+    background-color:green;
+    color: white;
+}
+li:active{
+    color:green;
+}  
+li{
+    display:inline;
+    padding-left:60px;
+    color: wheat;
+}
+body{
+background-color:aqua;
 }
 input{
-    background-color: rgba(11, 204, 43, 0.897);
-    text-align: centre;
-    margin: 30px;
-    width: 60%;
-    height: 6%;
+    background-color:rgb(227, 234, 235);
 }
-a{
+div{
+    margin: 10px;
+    padding: 10px;
+    background-color: lawngreen;
+    box-shadow:10px 10px 5px rgb(167, 21, 21);
+}
+input:hover{
+    color:blue;
+}
+input:active{
     color:red;
-}
-h1{
-    color:white;
-}
-p{
-    color:white;
 }
