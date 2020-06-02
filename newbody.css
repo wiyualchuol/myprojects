@@ -1,0 +1,44 @@
+body{
+    background-image: url(123.jpg);
+    background-position: center;
+    background-repeat:repeat;
+    height: 600px;
+    background-color: black;
+}
+div{
+    position: fixed;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    background-color: rgba(8, 6, 6, 0.822);
+    text-align:center;
+    
+    width: 30%;
+    height: 65%;
+    border: 10px inset dimgray;
+}
+input{
+    background-color: rgba(0, 0, 0, 0.295);
+    margin: 40px auto;
+    height: 5%;
+    width: 70%;
+    display: block;
+    color: rgb(233, 13, 185);
+   
+
+}
+p{
+    color: rgb(255, 0, 170);
+}
+p:hover{
+    color: rgb(140, 143, 136);
+}
+h1{
+    color: rgb(247, 8, 139);
+}
+input:active{
+    color:blue;
+}
+input:hover{
+    color:rgb(245, 9, 9);
+}
