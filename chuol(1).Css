@@ -1,0 +1,38 @@
+body{
+background-image: url(ob.jpg);
+background-position: none;
+background-repeat: no-repeat;
+}
+h1{
+color: rgb(120, 124, 124);
+}
+div{
+    background-color:rgba(173, 239, 241, 0.384);
+    text-align: center;
+    margin-top:400px;
+    margin-left: 450px;
+    margin-bottom: 100px;
+    margin-right: 450px;
+    margin-top: 20px;
+    border:solid 15px rgba(58, 247, 237, 0.356);
+    border-radius: 50px;
+}
+input{
+    margin: 30px;
+    width: 160px;
+    height: 20px;
+    background-color: rgba(0, 139, 139, 0.26);
+    color: white;
+}
+input:hover{
+    color:blue;
+}
+input:active{
+    color: red;
+}
+P{
+    color: blue;
+}
+p:hover{
+    color: red;
+}
